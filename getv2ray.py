@@ -45,7 +45,6 @@ simple_urls = [
 	'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg',
 	'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
 	'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt',
-	'https://raw.githubusercontent.com/mianfeifq/share/main/data2023049.txt',
 	'https://raw.githubusercontent.com/openRunner/clash-freenode/main/v2ray.txt',
 	'https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt',
 	'https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt',
