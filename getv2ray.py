@@ -52,6 +52,7 @@ simple_urls = [
 ]
 
 spl_urls = [
+	'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
 	'https://raw.githubusercontent.com/HakurouKen/free-node/main/public',
 	'https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/configs.txt'
 ]
@@ -61,11 +62,11 @@ re_urls = [
 	'https://raw.githubusercontent.com/mianfeifq/share/main/README.md'
 ]
 
-for su in simple_urls:
-	getServerFromBase64(getTextFromUrl(su))
-
 for su in spl_urls:
 	getServerFromUrl(su)
+
+for su in simple_urls:
+	getServerFromBase64(getTextFromUrl(su))
 
 for ru in re_urls:
 	getServerWithPattern(ru)
